@@ -2,7 +2,7 @@
 <html lang="en" >
   <head>
     <meta charset="UTF-8">
-    <title>bulma|vue kanban</title>
+    <title>Xandr Creative Templates Galery</title>
     <!-- Bulma Version 0.8.x-->
     <link rel='stylesheet prefetch' href='https://unpkg.com/bulma@0.8.0/css/bulma.min.css'>
     <link rel="stylesheet" href="../css/kanban.css">
@@ -13,7 +13,7 @@
       <nav class="navbar has-shadow">
         <div class="container">
           <div class="navbar-brand"><a class="navbar-item" href="../">
-          <img src="http://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox"/></a>
+          <img src="https://bcoutinho-xandr.github.io/projects/xandr_logo_rgb.png"/></a>
         </div>
       </div>
     </nav>
@@ -57,6 +57,32 @@
               </div>
             </div>
           </article>
+          <article class="message" :class="'is-' + yxy.cardColor">
+            <div class="message-header">
+              <!-- Make a header using the `name` property from the current season in the loop -->
+              <p>{{ title }} » {{  yxy.name }}</p>
+              <button class="delete" aria-label="delete" @click="removeCard(yxy)"></button>
+            </div>
+            <div class="message-body">
+              <div class="board-item">
+                <!-- Loop through the `items` array from the current season to show each item -->
+                <div class="board-item-content" v-for="item in yxy.items"><span>{{ item }}</span></div>
+              </div>
+            </div>
+          </article>
+          <article class="message" :class="'is-' + yxy.cardColor">
+            <div class="message-header">
+              <!-- Make a header using the `name` property from the current season in the loop -->
+              <p>{{ title }} » {{  yxy.name }}</p>
+              <button class="delete" aria-label="delete" @click="removeCard(yxy)"></button>
+            </div>
+            <div class="message-body">
+              <div class="board-item">
+                <!-- Loop through the `items` array from the current season to show each item -->
+                <div class="board-item-content" v-for="item in yxy.items"><span>{{ item }}</span></div>
+              </div>
+            </div>
+          </article>
         </div>
       </div>
     </section>
@@ -66,7 +92,7 @@
       <div class="columns is-mobile is-centered">
         <div class="field is-grouped is-grouped-multiline">
           <div class="control">
-            <div class="tags has-addons"><a class="tag is-link" href="https://github.com/BulmaTemplates/bulma-templates">Bulma Templates</a><span class="tag is-light">Daniel Supernault</span></div>
+            <div class="tags has-addons">Bulma Templates<span class="tag is-light">Bruno Coutinho</span></div>
           </div>
           <div class="control">
             <div class="tags has-addons"><a class="tag is-link">The source code is licensed</a><span class="tag is-light">MIT  <i class="fa fa-github"></i></span></div>
