@@ -14,11 +14,7 @@ var App = new Vue({
             "lord snow",
             "cripples, bastards and broken things",
             "the wolf and the lion",
-            "a golden crown",
-            "you win or you die",
-            "the pointy end",
-            "baelor",
-            "fire and blood"
+            "a golden crown"
           ]
         },
         {
@@ -29,28 +25,17 @@ var App = new Vue({
             "the night lands",
             "what is dead may never die",
             "garden of bones",
-            "the ghost of harrenhal",
-            "the old gods and the new",
-            "a man without honor",
-            "the prince of winterfell",
-            "blackwater",
-            "valar morghulis"
+            "the ghost of harrenhal"
           ]
         },
         {
           name: "Native",
-          cardColor: "gray",
+          cardColor: "silver",
           items: [
             "valar dohaeris ",
             "dark wings, dark words",
             "walk of punishment",
-            "and now his watch is ended",
-            "kissed by fire",
-            "the climb",
-            "the bear and the maiden fair",
-            "second sons",
-            "the rains of castamere",
-            "mhysa"
+            "and now his watch is ended"
           ]
         }
       ]
