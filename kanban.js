@@ -23,7 +23,7 @@ var App = new Vue({
         },
         {
           name: "Video",
-          cardColor: "red",
+          cardColor: "danger",
           items: [
             "the north remembers",
             "the night lands",
