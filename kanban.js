@@ -9,34 +9,29 @@ var App = new Vue({
           name: "Standard",
           cardColor: "dark",
           items: [
-            "winter is coming",
-            "the kingsroad",
-            "lord snow",
-            "cripples, bastards and broken things",
-            "the wolf and the lion",
-            "a golden crown"
+            "Banner",
+            "Hosted HTML5",
+            "Expandable",
+            "Interstitial",
+            "Skin"
           ]
         },
         {
           name: "Video",
           cardColor: "danger",
           items: [
-            "the north remembers",
-            "the night lands",
-            "what is dead may never die",
-            "garden of bones",
-            "the ghost of harrenhal"
+            "Audio",
+            "Hosted Video",
+            "Third-Party Hosted VAST"
           ]
         },
         {
           name: "Native",
           cardColor: "silver",
           items: [
-            "valar dohaeris ",
-            "dark wings, dark words",
-            "walk of punishment",
-            "and now his watch is ended"
-          ]
+            "AppNexus Hosted Native",
+            "Video Native (also AppNexus hosted)",
+            "Third Party Native"          ]
         }
       ]
     }
