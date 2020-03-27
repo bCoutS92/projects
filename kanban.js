@@ -47,7 +47,7 @@ var App = new Vue({
           name: card.name,
           cardColor: card.cardColor,
           items: card.items.filter(function (item) {
-            return item.includes(_this.search)
+            return (item || '').toLowerCase().includes((_this.search || '').toLowerCase())
           })
         }
       })
