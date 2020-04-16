@@ -37,13 +37,13 @@
       </div>
     </section>
     <!-- Loop through the parent array -->
-    <section class="container cards-container">
+    <section class="container cards-container"><br>Creative Gallery
       <div class="columns is-centered is-multiline" id="sectioncontainer">
         <div class="column is-narrow" v-for="yxy in filteredCards">
           <article class="message" :class="'is-' + yxy.cardColor">
             <div class="message-header">
               <!-- Make a header using the `name` property from the current season in the loop -->
-              <p>{{ title }} » {{  yxy.name }}</p>
+              <p>{{  yxy.name }}</p>
               <button class="delete" aria-label="delete" @click="removeCard(yxy)"></button>
             </div>
             <div class="message-body">
