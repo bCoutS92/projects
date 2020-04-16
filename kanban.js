@@ -3,7 +3,6 @@ var App = new Vue({
   data() {
     return {
       search: "",
-      title: "Creative",
       cards: [
         {
           name: "Standard",
