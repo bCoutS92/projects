@@ -1,1 +1,5 @@
+#container .cards-container{
+width: 360;
+}
 
+.message-header { button : hidden; }
