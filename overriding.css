@@ -1,5 +1,32 @@
-#container .cards-container{
-width: 360;
+
+/* changing width cards */
+.message{
+  width: 400px;
 }
 
-.message-header { button : hidden; }
+/* changing color from one title card  */
+.message.is-dark .message-header {
+  background-color: #1a0000;
+}
+.message.is-danger .message-header {
+    background-color: #1a0000;
+}
+.message.is-silver .message-header {
+    background-color: #1a0000;
+}
+.message-body {
+  background-color: #dbdbdb;
+  color: #cc0f35;
+}
+
+/* hidde the delete "x" button  */
+.message-header .delete:hover {
+    pointer-events: auto;
+    visibility: hidden;
+    display: inline;
+}
+
+/* color mouse over */
+.board-item-content:hover{
+  background-color: #ffe6e6;
+}
