@@ -21,7 +21,7 @@
 
 /* hidde the delete "x" button  */
 .message-header:hover  .delete{
-    display: block;
+    visibility: hidden;
 }
 
 /* color mouse over */
