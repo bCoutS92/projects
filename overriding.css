@@ -20,10 +20,8 @@
 }
 
 /* hidde the delete "x" button  */
-.message-header .delete:hover {
-    pointer-events: auto;
-    visibility: hidden;
-    display: inline;
+.message-header:hover  .delete{
+    display: block;
 }
 
 /* color mouse over */
